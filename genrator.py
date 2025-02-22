@@ -43,5 +43,6 @@ res=even(10)
 x=next(res)
 for i in range(x):
     print(i)
-x=next(res)
+print(next(res))
+print(next(res))
 
