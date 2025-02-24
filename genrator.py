@@ -27,22 +27,22 @@
 # # print(x.__next__())
 # print(next(x))
 
-def even(n):
-    i=0
-    while i<=n:
-        if i%2==0:
-            yield i
-        i=i+1
-res=even(10)
-# print(res)
-# print(list(res))
+# def even(n):
+#     i=0
+#     while i<=n:
+#         if i%2==0:
+#             yield i
+#         i=i+1
+# res=even(10)
+# # print(res)
+# # print(list(res))
+# # x=next(res)
+# # y=next(res)
+# # z=next(res)
+# # print(x,y,z)
 # x=next(res)
-# y=next(res)
-# z=next(res)
-# print(x,y,z)
-x=next(res)
-for i in range(x):
-    print(i)
-print(next(res))
-print(next(res))
+# for i in range(x):
+#     print(i)
+# print(next(res))
+# print(next(res))
 
