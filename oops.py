@@ -23,4 +23,15 @@
                 # code-reuseability----reuseability
 
 
+# Variables:
+# instance variable
+# class/Static variable
+# local variable
+
+# Methods:
+# Constructor(special type of method)
+# Instance method
+# class method
+# static method
+
 
