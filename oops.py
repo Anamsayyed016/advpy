@@ -24,14 +24,16 @@
 
 
 # Variables:
-# instance variable
-# class/Static variable
-# local variable
+# instance variable------ self
+# class/Static variable----- access anywhere in class
+# local variable-----inside method declared
+
+
 
 # Methods:
-# Constructor(special type of method)
-# Instance method
-# class method
-# static method
+# Constructor(special type of method)-------
+# Instance method----- first parameter is self
+# class method-----
+# static method----- 
 
 
