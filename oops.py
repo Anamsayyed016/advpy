@@ -16,11 +16,11 @@
 # properties of oops:
 # abstarction
 # encapsulation
-                # data-protection-----class
+                #data-protection-----class
 
-# inheritence
-# polymorphism
-                # code-reuseability----reuseability
+#inheritence
+#polymorphism
+                #code-reuseability----reuseability
 
 
 # Variables:
@@ -35,5 +35,4 @@
 # Instance method----- first parameter is self
 # class method-----
 # static method----- 
-
 
