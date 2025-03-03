@@ -43,16 +43,16 @@
 
 
 
-class Student:
-    def __init__(self,name,roll_no,marks):
+# class Student:
+#     def __init__(self,name,roll_no,marks):
         
-        self.x = "Anam"
-        self.y = 102
-        self.z = 50
+#         self.x = "Anam"
+#         self.y = 102
+#         self.z = 50
 
-    def add_new(self,city):
-        self.q
+#     def add_new(self,city):
+#         self.q
 
-    def show(self):
-        print(self.q,self.q,self.y)
+#     def show(self):
+#         print(self.q,self.q,self.y)
         
