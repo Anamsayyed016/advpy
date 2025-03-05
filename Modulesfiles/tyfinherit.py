@@ -60,21 +60,21 @@
 # Multilevel Inheritance:-
 
 
-class Grand_Parent:
-    def home(self):
-        print("parent1 home")
+# class Grand_Parent:
+#     def home(self):
+#         print("parent1 home")
 
-class Parent(Grand_Parent):
-    def car(self):
-        print("parent2 home")
+# class Parent(Grand_Parent):
+#     def car(self):
+#         print("parent2 home")
 
-class Child(Parent):
-    def new(self):
-        print("child new")
+# class Child(Parent):
+#     def new(self):
+#         print("child new")
 
 
-obj=Child()
-obj.home()
-obj.new()
-obj.car()
+# obj=Child()
+# obj.home()
+# obj.new()
+# obj.car()
 
