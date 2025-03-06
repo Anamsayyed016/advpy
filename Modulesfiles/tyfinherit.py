@@ -78,3 +78,54 @@
 # obj.new()
 # obj.car()
 
+# ------------------------------------------------------------------------------------------
+# Herarichical Inheritance:-
+
+# class Parent:
+#     def home(self):
+#         print("from parent class")
+
+# class Child1(Parent):
+#     def home(self):
+#         # print("from child1 class")
+#         super().home()
+#         # Parent.home(self)----not needed
+
+# class Child2(Parent):
+#     def home(self):
+#         print("from child2 class")
+# obj1=Child1()
+# obj1.home()
+# obj2=Child2()
+# obj2.home()
+
+# -------------------------------------------------------------------------------------
+
+# Hybrid Inheritance:-
+
+# class Parent:
+#     def home(self):
+#         print("from parent class")
+
+# class Child1(Parent):
+#     def home(self):
+#         print("from child1 class")
+#         # super().home()
+#         # Parent.home(self)----not needed
+
+# class Child2(Parent):
+#     def home(self):
+#         print("from child2 class")
+
+# class Child3(Child1,Child2):
+#     def new(self):
+#         print("from Child3")
+
+# obj=Child3()
+# obj.home()
+# print(Child3.__mro__)
+
+# overloading---py does not suppost---variabl lngth(*)---pass inlimuted value---tuple---args,key varable(**)---dict------eval----evloution---
+# overriding
+
+
