@@ -1,5 +1,5 @@
 # Abstraction=>----hiding internal process
-# Encapsulation
+# Encapsulation------create class----wrap-----
 # Inheritence------access parent properties in child,code reuseabiliti,time saving, reduce-redendensy
 # Polymorphism
 # -------------------------------------------------------------------------------------
