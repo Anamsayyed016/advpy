@@ -11,29 +11,29 @@
 # restriction in parent class throgh abstraction
 # imporct module
 
-from abc import ABC , abstractmethod
+# from abc import ABC , abstractmethod
 
-class BankApp(ABC):
-    def login (self):
-        print("User Login")
+# class BankApp(ABC):
+#     def login (self):
+#         print("User Login")
         
-    def logout(self):
-        print("User Logout")
+#     def logout(self):
+#         print("User Logout")
 
-    def User_detail(self):
-        print("User Detail")
+#     def User_detail(self):
+#         print("User Detail")
 
-    @abstractmethod
-    def database(self):
-        pass
+#     @abstractmethod
+#     def database(self):
+#         pass
 
-class webpage(BankApp):
-    def database(self):
-        print("database connected")
+# class webpage(BankApp):
+#     def database(self):
+#         print("database connected")
 
-obj=webpage()
-obj.database()
-obj.login()
-obj.User_detail()
-obj.logout()
+# obj=webpage()
+# obj.database()
+# obj.login()
+# obj.User_detail()
+# obj.logout()
     

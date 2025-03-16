@@ -1,4 +1,4 @@
-# import functools
+import functools
 # syn:-function.reduce(fun_name, collection)
 
 # from functools import reduce

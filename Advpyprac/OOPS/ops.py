@@ -178,33 +178,33 @@
 
 # @CLASSMETHOD:-
 
-class Book:
-    price = 100
-    total_pages = 500
+# class Book:
+#     price = 100
+#     total_pages = 500
 
-    def __init__(self,title,author):
-        self.title = title
-        self.author = author
+#     def __init__(self,title,author):
+#         self.title = title
+#         self.author = author
 
-    @classmethod
-    def update (cls,new_price,new_page_count,author2):
-        cls.price= new_price
-        cls.total_pages=new_page_count
+#     @classmethod
+#     def update (cls,new_price,new_page_count,author2):
+#         cls.price= new_price
+#         cls.total_pages=new_page_count
         
     
-    @classmethod
-    def add_new(cls,author):
-        cls.author2=author
+#     @classmethod
+#     def add_new(cls,author):
+#         cls.author2=author
     
     
     
-    def  show_details(self):
-        print(self.title,self.author,Book.price,Book.total_pages)
+#     def  show_details(self):
+#         print(self.title,self.author,Book.price,Book.total_pages)
     
-obj=Book('python','Anam',)
-Book.update(110,555,"ALi")
-obj.show_details()
-price=Book.price
+# obj=Book('python','Anam',)
+# Book.update(110,555,"ALi")
+# obj.show_details()
+# price=Book.price
 
 
 

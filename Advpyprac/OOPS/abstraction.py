@@ -48,5 +48,29 @@
 # obj.UserDetails()
 # obj.UserLogin()
 # obj.UderLogout
+# -------------------------------------------------------------------------
+from abc import ABC, abstractmethod
+class SbiBank(ABC):
+    def Userlogin(self):
+        print("User Login")
 
+    def UserLogout(self):
+        print("User Logout")
 
+    def UserDetails(self):
+        print("User Details")
+    
+    @abstractmethod
+    def DataBase(self):
+        pass
+
+class WebApp(SbiBank):
+    def DataBase(self):
+        print("DataBase Connected")
+
+obj=WebApp()
+obj.DataBase()
+obj.Userlogin()
+obj.UserDetails()
+obj.UserLogout
+        
