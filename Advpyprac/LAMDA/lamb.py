@@ -20,3 +20,26 @@
 
 # --------------------------------------------------------
 
+# n= lambda p:[i for i in range(p)]
+# p=int (input("Enter Your value:"))
+# print(n(p))
+# ----------------------------------------------------------
+
+# x=lambda p,q:[[r for r in range(p) ]for i in range(q)]
+
+# p=int(input("Enter how many collection required:"))
+# q=int(input("Enter how many reptation required:"))
+
+# print(x(p,q))
+# ==========================================================
+
+# c=lambda a,b:[[r for r in range (a)]for i in range (b)]
+# p=int(input("Enter the collection:"))
+# q=int(input("How many repetation:"))
+# print(c(p,q))
+# -----------------------------------------------------------------
+
+# x=lambda str1,q:[str1 for i in range(q)]
+# str1=(input("how many collection:"))
+# q=int(input("how many repetation:"))
+# print(x(str1,q))
